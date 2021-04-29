@@ -11,6 +11,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': {-> fzf#install()} }
 Plug 'antoinemadec/coc-fzf',  {'branch': 'release'}
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'easymotion/vim-easymotion'
 " 对齐线
 Plug 'Yggdroot/indentLine'
 if has('nvim')
