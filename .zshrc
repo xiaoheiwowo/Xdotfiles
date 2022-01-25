@@ -93,6 +93,8 @@ source $ZSH/oh-my-zsh.sh
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
+export EDITOR='vim'
+
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -102,6 +104,7 @@ source $ZSH/oh-my-zsh.sh
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
+
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -115,7 +118,6 @@ alias py='python3'
 alias python='python3'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias typora='/Applications/Typora.app/Contents/MacOS/Typora'
-#alias code='/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron'
 alias goland='nohup /Applications/GoLand.app/Contents/MacOS/goland > /dev/null &'
 
 # mysql

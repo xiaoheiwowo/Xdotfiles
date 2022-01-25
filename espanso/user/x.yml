@@ -1,0 +1,23 @@
+name: emails
+parent: default
+
+
+matches:
+  - trigger: ":sig"
+    replace: |
+      Best regards,
+      Jon Snow
+  - trigger: ":xtime"
+    replace: "{{cur_time}}"
+    vars:
+      - name: cur_time
+        type: date
+        params:
+          format: "%Y-%m-%d %H:%M:%S"
+  - trigger: ":xip"
+    replace: "{{lan_ip}}"
+    vars:
+      - name: lan_ip
+        type: shell
+        params:
+          cmd: "ifconfig | grep 'inet ' | grep -v 127.0.0.1 | awk '{print $2}' | tr -d '\n'"

@@ -8,16 +8,6 @@
 	<string>\j</string>
 	<key>AlternateMouseScrollStringForUp</key>
 	<string>\k</string>
-	<key>AppleAntiAliasingThreshold</key>
-	<integer>1</integer>
-	<key>ApplePressAndHoldEnabled</key>
-	<false/>
-	<key>AppleScrollAnimationEnabled</key>
-	<integer>0</integer>
-	<key>AppleSmoothFixedFontsSizeThreshold</key>
-	<integer>1</integer>
-	<key>AppleWindowTabbingMode</key>
-	<string>manual</string>
 	<key>Custom Color Presets</key>
 	<dict>
 		<key>3024 Day</key>
@@ -58987,6 +58977,8 @@
 				<key>Red Component</key>
 				<real>0.11765811592340469</real>
 			</dict>
+			<key>Background Image Location</key>
+			<string>/Users/xiaohei/Pictures/wallhaven-dpo38l.jpg</string>
 			<key>Background Image Mode</key>
 			<integer>2</integer>
 			<key>Badge Color</key>
@@ -59003,7 +58995,7 @@
 				<real>1</real>
 			</dict>
 			<key>Blend</key>
-			<real>0.33522571681701024</real>
+			<real>0.26941338138303894</real>
 			<key>Blinking Cursor</key>
 			<false/>
 			<key>Blur</key>
@@ -61294,6 +61286,19 @@
 	<false/>
 	<key>ShowFullScreenTabBar</key>
 	<false/>
+	<key>Snippets</key>
+	<array>
+		<dict>
+			<key>guid</key>
+			<string>4CA1177A-B64D-4922-8F7B-9C13111A2667</string>
+			<key>title</key>
+			<string>(-&gt;3cc2)!)</string>
+			<key>value</key>
+			<string>(-&gt;3cc2)!)</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
 	<key>SoundForEsc</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
