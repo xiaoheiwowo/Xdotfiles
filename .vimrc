@@ -83,7 +83,7 @@ let g:NERDTreeSize=30
 ""窗口是否显示行号
 let g:NERDTreeShowLineNumbers=0
 ""不显示隐藏文件
-let g:NERDTreeHidden=0
+let g:NERDTreeHidden=1
 
 ""-------------------------------------------- Vim Commentary ------------------------------------------------
 "vim-commentary
@@ -94,7 +94,7 @@ autocmd FileType java,c,cpp set commentstring=//\ %s
 
 ""--------------------------------------------- Airline & 状态栏 ---------------------------------------------
 " vim-airline
-" let g:airline_theme="promptline"
+let g:airline_theme="onedark"
 
 " 是否显示状态栏。0 表示不显示，1 表示只在多窗口时显示，2 表示显示
 set laststatus=2  "永远显示状态栏
@@ -160,6 +160,7 @@ noremap <Leader>f :FzfFiles<cr>
 noremap <Leader>[ :FzfBuffers<cr>
 noremap <Leader>t :FzfTags<cr>
 noremap <Leader>a :FzfAg<cr>
+
 
 nmap <leader><tab> <plug>(fzf-maps-n)
 xmap <leader><tab> <plug>(fzf-maps-x)

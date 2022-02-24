@@ -7,6 +7,8 @@ matches:
     replace: |
       Best regards,
       Jon Snow
+  - trigger: "嗯"
+    replace: "嗯呢"
   - trigger: ":xtime"
     replace: "{{cur_time}}"
     vars:

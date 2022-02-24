@@ -119,6 +119,7 @@ alias python='python3'
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias typora='/Applications/Typora.app/Contents/MacOS/Typora'
 alias goland='nohup /Applications/GoLand.app/Contents/MacOS/goland > /dev/null &'
+alias cat='bat'
 
 # mysql
 # export PATH="/usr/local/opt/mysql-client/bin:$PATH"
@@ -141,7 +142,7 @@ alias goland='nohup /Applications/GoLand.app/Contents/MacOS/goland > /dev/null &
 # export CLASSPATH
 
 # brew
-export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
+# export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.ustc.edu.cn/homebrew-bottles
 
 # go
 export GOSUMDB=off
@@ -158,3 +159,5 @@ complete -C '/usr/local/aws/bin/aws_completer' aws
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 [ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
+
+# github token: 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
