@@ -101,7 +101,6 @@ set laststatus=2  "永远显示状态栏
 let g:airline_powerline_fonts = 1  " 支持 powerline 字体
 let g:airline#extensions#tabline#enabled = 1 " 显示窗口tab和buffer
 let g:Powerline_symbols = 'fancy'
-
 ""--------------------------------------------- Key Map ------------------------------------------------------
 let mapleader=' '
 map <leader>q :q <CR>
@@ -110,6 +109,7 @@ map <leader>sa ggVG"
 
 noremap ; :
 inoremap jj <ESC>
+inoremap kk <ESC>
 noremap <c-h> <C-w>h
 noremap <c-l> <C-w>l
 noremap <c-j> <C-w>j
