@@ -1,7 +1,6 @@
 name: emails
 parent: default
 
-
 matches:
   - trigger: ":sig"
     replace: |
@@ -23,3 +22,7 @@ matches:
         type: shell
         params:
           cmd: "ifconfig | grep 'inet ' | grep -v 127.0.0.1 | awk '{print $2}' | tr -d '\n'"
+  - trigger: ":xep"
+    replace: "easypeer"
+  - trigger: ":xEp"
+    replace: "EasyPeer"
