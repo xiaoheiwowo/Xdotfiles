@@ -34,6 +34,7 @@ set shiftwidth=4 "设定自动缩进为4个字符
 set expandtab "用space替代tab的输入
 " 设置vim剪切板和系统剪切板共享
 set clipboard=unnamed
+set paste
 " 光标
 " set cc=120
 let g:indent_guides_guide_size=1
