@@ -404,8 +404,7 @@ shell:
     - -l
     - -c
     - "source /Users/xiaohei/.zshrc && tmux new -s d || tmux attach"
-    # - "source /Users/xiaohei/.tmux.conf"
-      # - "cd ~/work"
+    # - "cd ~/work"
   # Startup director
   #
   # Directory the shell is started in. If this is unset, or `None`, the working
