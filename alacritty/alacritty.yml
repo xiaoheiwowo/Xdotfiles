@@ -402,10 +402,11 @@ shell:
   program: /bin/zsh
   args:
     - -l
-      # - -c
-      #- "tmux attach || tmux new -s d"
+    - -c
+    - "source /Users/xiaohei/.zshrc && tmux new -s d || tmux attach"
+    # - "source /Users/xiaohei/.tmux.conf"
       # - "cd ~/work"
-  # Startup directory
+  # Startup director
   #
   # Directory the shell is started in. If this is unset, or `None`, the working
   # directory of the parent process will be used.
