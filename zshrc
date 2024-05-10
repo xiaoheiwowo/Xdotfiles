@@ -121,8 +121,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 # source ~/powerlevel10k/powerlevel10k.zsh-theme
-alias ls=exa
-alias la="exa -a"
+alias ls=lsd
+alias cd=z
+alias vim=hx
+alias yy=yazi
 alias cat="bat --style=header --paging=never"
 alias chrome="open -a Google\ Chrome"
 
@@ -137,3 +139,7 @@ export PATH="/opt/homebrew/opt/redis@6.2/bin:$PATH"
 
 
 # [ -f ~/.inshellisense/key-bindings.zsh ] && source ~/.inshellisense/key-bindings.zsh
+
+# bun completions
+[ -s "/Users/xiaohei/.bun/_bun" ] && source "/Users/xiaohei/.bun/_bun"
+eval "$(zoxide init zsh)"
