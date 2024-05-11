@@ -17,27 +17,25 @@ args = [
 decorations = "Full"
 dynamic_padding = false
 dynamic_title = true
-opacity = 0.9
+opacity = 0.8
 blur = true
-
-[window.dimensions]
-columns = 160
-lines = 48
-
-[window.padding]
-x = 2
-y = 2
+position = { x = 500, y = 300 }
+padding = { x = 2, y = 2 }
+dimensions = { columns = 140, lines = 40 }
 
 [cursor.style]
 blinking = "On"
 
 [font]
-size = 14
+size = 15
 normal = { family = "Maple Mono SC NF" }
 
 [font.bold]
 family = "Maple Mono SC NF"
 style = "Bold"
+
+[terminal]
+osc52 = "CopyPaste"
 
 [keyboard]
 bindings = [
@@ -83,6 +81,9 @@ bindings = [
   { key = "Key2", mods = "Command", chars = "\u00022" },
   { key = "Key3", mods = "Command", chars = "\u00023" },
 ]
+
+[colors]
+line_indicator = { foreground = "#181818", background = "#d8d8d8" }
 
 
 [colors.primary]
