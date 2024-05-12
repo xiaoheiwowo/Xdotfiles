@@ -20,7 +20,7 @@ dynamic_title = true
 opacity = 0.8
 blur = true
 position = { x = 500, y = 300 }
-padding = { x = 2, y = 2 }
+padding = { x = 0, y = 0 }
 dimensions = { columns = 140, lines = 40 }
 
 [cursor.style]
