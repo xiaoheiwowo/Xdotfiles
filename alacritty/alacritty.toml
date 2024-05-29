@@ -27,7 +27,7 @@ dimensions = { columns = 140, lines = 40 }
 blinking = "On"
 
 [font]
-size = 15
+size = 14
 normal = { family = "Maple Mono SC NF" }
 
 [font.bold]
@@ -71,7 +71,8 @@ bindings = [
   { key = "F", mods = "Command|Control", action = "ToggleFullscreen" },
 
   # tmux
-  { key = "LBracket", mods = "Command", chars = "\u0002" },
+  { key = "LBracket", mods = "Command", chars = "\u0002\u001b\u005b\u0044" },
+  { key = "RBracket", mods = "Command", chars = "\u0002\u001b\u005b\u0043" },
   { key = "T", mods = "Command", chars = "\u0002\u0063" },
   { key = "Tab", mods = "Control", chars = "\u0002\u000c" },
   { key = "D", mods = "Command", chars = "\u0002_" },
