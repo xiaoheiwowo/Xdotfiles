@@ -126,7 +126,7 @@ alias ls=lsd
 alias cd=z
 alias vim=hx
 alias yy=yazi
-alias cat="bat --style=header --paging=never"
+alias cat="bat --style=header --paging=never --theme=gruvbox-dark"
 alias chrome="open -a Google\ Chrome"
 
 POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
