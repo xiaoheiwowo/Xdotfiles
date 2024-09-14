@@ -88,6 +88,7 @@ bindings = [
   { key = "Key2", mods = "Command", chars = "\u00022" },
   { key = "Key3", mods = "Command", chars = "\u00023" },
   { key = "Key4", mods = "Command", chars = "\u00024" },
+  { key = "Key5", mods = "Command", chars = "\u0002\u005b" },
 ]
 
 [colors]
