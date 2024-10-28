@@ -138,3 +138,7 @@ POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
 # bun completions
 [ -s "/Users/xiaohei/.bun/_bun" ] && source "/Users/xiaohei/.bun/_bun"
 eval "$(zoxide init zsh)"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
