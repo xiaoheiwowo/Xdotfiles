@@ -1,0 +1,24 @@
+term = xterm-256color
+font-family = "Maple Mono SC NF"
+font-size = 14
+font-thicken = true
+window-height = 42
+window-width = 140
+# adjust-cell-height = 5%
+# window-theme = ghostty
+window-title-font-family = "Maple Mono SC NF, CaskaydiaCove Nerd Font Mono"
+# window-decoration = true
+macos-titlebar-style = tabs
+cursor-style = block
+cursor-color = yellow
+cursor-style-blink = true
+
+
+command = /opt/homebrew/bin//fish -l
+# -c "tmux attach || tmux new -s d"
+theme = catppuccin-mocha
+background-opacity = 0.8
+background-blur-radius = 20
+
+# keybinding
+keybind = global:cmd+grave_accent=toggle_quick_terminal
