@@ -17,15 +17,16 @@
       "alignment": "left",
       "segments": [
         {
-          "background": "white",
-          "foreground": "p:os",
+          "background": "gray",
+          // "foreground": "p:os",
+          "foreground": "white",
           "style": "plain",
           "template": " {{.Icon}} ",
           "type": "os"
         },
         {
-          "background": "magenta",
-          "foreground": "white",
+          "background": "#7AB8B8",
+          "foreground": "black",
           "properties": {
             // "folder_icon": "..\ue5fe..",
             "style": "letter",

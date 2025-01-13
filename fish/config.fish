@@ -9,10 +9,11 @@ oh-my-posh init fish --config ~/.config/fish/x.omp.json | source
 alias cd=z
 alias ls=lsd
 alias l=ll
-alias vim=hx
+alias vim=nvim
 alias yy=yazi
 alias where=which
 alias cat="bat --style=header --paging=never --theme=gruvbox-dark"
+alias kj="kubectl exec -it appserver-jenkins-inbound-agent-001 -n devops -- /bin/fish"
 
 set fish_greeting ""
 # set -Ux LC_ALL "zh_CN.UTF-8"

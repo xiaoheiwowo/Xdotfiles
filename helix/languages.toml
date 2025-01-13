@@ -66,7 +66,7 @@ source = { git = "https://github.com/tree-sitter/tree-sitter-python", rev = "4bf
 
 [[language]]
 name = "go"
-diagnostic-severity = "Hint"
+diagnostic-severity = "hint"
 scope = "source.go"
 injection-regex = "go"
 file-types = ["go"]
