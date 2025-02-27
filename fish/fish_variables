@@ -44,4 +44,4 @@ SETUVAR fish_pager_color_selected_background:\x2d\x2dbackground\x3dFFCC66
 SETUVAR fish_pager_color_selected_completion:\x1d
 SETUVAR fish_pager_color_selected_description:\x1d
 SETUVAR fish_pager_color_selected_prefix:\x1d
-SETUVAR fish_user_paths:/Users/xiaohei/go/bin\x1e/opt/homebrew/bin\x1e/Users/xiaohei/work/bin
+SETUVAR fish_user_paths:/Users/xiaohei/\x2envm/versions/node/v16\x2e20\x2e2/bin\x1e/Users/xiaohei/go/bin\x1e/opt/homebrew/bin\x1e/Users/xiaohei/work/bin
