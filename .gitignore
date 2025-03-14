@@ -1,1 +1,4 @@
 .DS_Store
+node_modules
+raycast/package-lock.json
+raycast/package.json
